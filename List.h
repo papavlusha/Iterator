@@ -51,6 +51,7 @@ public:
 		it = back;
 		it--;
 		vec.erase(it);
+		vec.resize(vec.size() + 1);
 		return true;
 	}
 
