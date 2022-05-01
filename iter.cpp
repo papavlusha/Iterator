@@ -67,6 +67,6 @@ int main() {
 	cout << "Элементы удовлетворяющие 2-му итератору ";
 	cout << counting((ListIteratorValue*)litV4)  << endl;
 	cout << "Элементы удовлетворяющие 3-му итератору ";
-	cout << counting((ListIteratorValue*)litPred) << endl;
+	cout << counting((ListIteratorPredicate*)litPred) << endl;
 }
 
