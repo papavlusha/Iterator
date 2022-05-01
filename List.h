@@ -44,12 +44,13 @@ public:
 		back = --del;
 		return true;
 	}
-	bool remove() {
+		bool remove() {
 		if (back == vec.begin())
 			return false;
-		back--;
-		vec.pop_back();
-		vec.resize(vec.size() + 1);
+		list <int>::iterator it;
+		it = back;
+		it--;
+		vec.erase(it);
 		return true;
 	}
 
