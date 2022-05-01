@@ -186,6 +186,7 @@ class ListIteratorValue : public ListIterator
 {
 private:
 	int value;
+public:
 	bool first() override//changed
 	{
 		place = pList->back;
